@@ -52,7 +52,6 @@ pub fn find_by_code(
 ///     .as_ref()
 /// );
 /// assert_eq!(it.next(), None);
-///
 /// ```
 pub fn find_by_substring<'a>(
     needle: &'a str,
