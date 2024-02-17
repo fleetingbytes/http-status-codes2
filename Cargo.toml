@@ -1,0 +1,14 @@
+[package]
+name = "http-status-codes2"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sven Siegmund <sven.siegmund@gmail.com>"]
+description = "Library for HTTP status codes"
+repository = "https://github.com/fleetingbytes/http-status-codes2/"
+license-file = "LICENSE"
+keywords = ["tools", "http", "documentation"]
+categories = ["library"]
+
+[dependencies]
+convert_case = "0.6"
+
