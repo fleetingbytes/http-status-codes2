@@ -9,7 +9,7 @@ A CLI is provided by the [heman][hemancrate] crate.
 Usage exaple for the official registry:
 
 ```rust
-use http_status_codes2::{find_by_code, status_code_registry::CODE_REGISTRY},
+use http_status_codes2::{find_by_code, status_code_registry::CODE_REGISTRY};
 
 assert_eq!(
     find_by_code(100, &CODE_REGISTRY),
@@ -26,7 +26,7 @@ assert_eq!(find_by_code(600, &CODE_REGISTRY), None);
 Usage exaple for the unofficial registry:
 
 ```rust
-use http_status_codes2::{find_by_substring, status_code_registry::UNOFFICIAL_CODE_REGISTRY},
+use http_status_codes2::{find_by_substring, status_code_registry::UNOFFICIAL_CODE_REGISTRY};
 
 let mut it = find_by_substring("teapot", &UNOFFICIAL_CODE_REGISTRY);
 assert_eq!(
